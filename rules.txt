@@ -1,0 +1,44 @@
+# Medical Diagnosis Expert System Rules
+
+# 1. Common infections
+IF fever > 38 AND cough > 6 THEN disease = "Flu"
+IF fever > 39 AND rash == "yes" THEN disease = "Measles"
+IF fever > 37 AND sore_throat == "yes" AND cough > 4 THEN disease = "Common Cold"
+IF fever > 38 AND fatigue > 6 AND body_pain == "yes" THEN disease = "Viral Fever"
+
+# 2. Gastrointestinal
+IF nausea > 6 AND vomiting == "yes" AND diarrhea == "yes" THEN disease = "Food Poisoning"
+IF stomach_pain > 7 AND vomiting == "yes" AND fever > 37.5 THEN disease = "Gastroenteritis"
+IF nausea > 5 AND appetite_loss == "yes" THEN disease = "Indigestion"
+
+# 3. Respiratory
+IF oxygen_spo2 < 92 AND cough > 7 AND fever > 38 THEN disease = "Pneumonia"
+IF cough > 8 AND wheezing == "yes" AND chest_pain == "yes" THEN disease = "Bronchitis"
+IF cough > 6 AND shortness_of_breath == "yes" AND fatigue > 6 THEN disease = "Asthma"
+
+# 4. Vector-borne
+IF fever > 38 AND headache > 6 AND rash == "yes" THEN disease = "Dengue"
+IF fever > 39 AND bleeding == "yes" AND platelet < 100000 THEN disease = "Dengue Hemorrhagic Fever"
+IF fever > 37.5 AND joint_pain > 7 THEN disease = "Chikungunya"
+IF fever > 38 AND night_sweats == "yes" AND cough > 5 THEN disease = "Tuberculosis"
+
+# 5. Neurological
+IF headache > 8 AND fever > 38 AND stiff_neck == "yes" THEN disease = "Meningitis"
+IF headache > 7 AND dizziness == "yes" AND fatigue > 6 THEN disease = "Migraine"
+IF fatigue > 8 AND confusion == "yes" THEN disease = "Chronic Fatigue Syndrome"
+
+# 6. Cardiovascular
+IF heart_rate > 120 AND fatigue > 8 THEN disease = "Cardiac Stress"
+IF chest_pain == "yes" AND shortness_of_breath == "yes" AND sweating == "yes" THEN disease = "Heart Attack"
+IF blood_pressure > 140 AND headache > 6 THEN disease = "Hypertension"
+
+# 7. Metabolic
+IF thirst > 7 AND urination == "frequent" AND fatigue > 5 THEN disease = "Diabetes"
+IF weight_loss == "yes" AND appetite_loss == "yes" AND fatigue > 7 THEN disease = "Thyroid Disorder"
+
+# 8. Others
+IF skin_rash == "yes" AND itching == "yes" THEN disease = "Allergic Reaction"
+IF eye_redness == "yes" AND watery_eyes == "yes" THEN disease = "Conjunctivitis"
+IF back_pain > 7 AND fatigue > 6 THEN disease = "Muscle Strain"
+IF joint_pain > 6 AND stiffness == "yes" THEN disease = "Arthritis"
+IF fever < 37.5 AND all symptoms == "low" THEN disease = "Healthy"

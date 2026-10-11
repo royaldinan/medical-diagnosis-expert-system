@@ -1,0 +1,201 @@
+patient_id,age,gender,fever_C,cough,fatigue,headache,nausea,oxygen_spo2,heart_rate,rash,bleeding,diarrhea,vomiting,diagnosis,illness_risk_level,severity_score,sore_throat,body_pain,stomach_pain,appetite_loss,wheezing,chest_pain,shortness_of_breath,platelet,joint_pain,night_sweats,stiff_neck,dizziness,confusion,sweating,blood_pressure,thirst,urination,weight_loss,skin_rash,itching,eye_redness,watery_eyes,back_pain,stiffness
+96,31,M,37.6,6,8,4,1,100,74,no,no,no,no,Common Cold,Low,6.2,yes,no,2,no,no,no,no,289896,2,no,no,no,no,no,117,3,normal,no,no,no,no,no,2,no
+16,47,Other,37.6,9,3,8,0,97,94,no,no,no,no,Bronchitis,Low,8.8,no,no,1,no,yes,yes,no,303214,1,no,no,no,no,no,126,2,normal,no,no,no,no,no,1,no
+31,32,F,37.7,8,5,3,1,100,64,no,no,no,no,Common Cold,Low,7.2,yes,no,2,no,no,no,no,267824,0,no,no,no,no,no,118,3,normal,no,no,no,no,no,1,no
+159,58,Other,38.7,10,8,2,0,89,66,no,no,no,no,COVID-19,Low,9.85,no,no,2,no,no,no,yes,311646,2,no,no,no,no,no,117,2,normal,no,no,no,no,no,1,no
+129,1,M,38.5,3,1,8,4,92,73,no,no,no,yes,Gastroenteritis,Low,7.75,no,no,8,no,no,no,no,266290,2,no,no,no,no,no,113,2,normal,no,no,no,no,no,0,no
+116,53,Other,36.2,8,4,4,1,95,78,yes,no,no,no,Allergic Reaction,Low,7.1,no,no,1,no,no,no,no,309032,2,no,no,no,no,no,126,3,normal,no,yes,yes,no,no,1,no
+70,44,Other,38.5,2,8,5,0,93,88,no,no,no,no,Dehydration,Low,6.75,no,no,2,no,no,no,no,254715,0,no,no,yes,no,no,120,10,normal,no,no,no,no,no,2,no
+171,7,M,37.6,7,9,4,4,98,75,yes,no,no,no,Allergic Reaction,Low,10.4,no,no,2,no,no,no,no,225751,0,no,no,no,no,no,118,3,normal,no,yes,yes,no,no,2,no
+175,27,F,37.3,5,7,6,2,97,92,no,no,no,no,Common Cold,Low,8.1,yes,no,0,no,no,no,no,308552,0,no,no,no,no,no,122,1,normal,no,no,no,no,no,0,no
+46,82,F,37.2,7,3,1,2,96,72,no,no,no,no,Common Cold,Low,3.6,yes,no,0,no,no,no,no,279287,2,no,no,no,no,no,126,3,normal,no,no,no,no,no,1,no
+67,33,M,38.1,5,2,3,8,96,89,no,no,no,yes,Gastroenteritis,Low,8.25,no,no,8,no,no,no,no,276645,2,no,no,no,no,no,124,1,normal,no,no,no,no,no,2,no
+183,38,M,38.6,3,8,5,3,95,92,no,no,yes,no,Dehydration,Low,7.1,no,no,2,no,no,no,no,315229,2,no,no,yes,no,no,116,8,normal,no,no,no,no,no,2,no
+166,53,F,38.0,3,0,4,1,96,63,no,no,no,yes,Gastroenteritis,Low,3.0,no,no,10,no,no,no,no,289264,0,no,no,no,no,no,124,3,normal,no,no,no,no,no,0,no
+79,32,F,37.9,6,9,0,3,99,94,no,no,no,no,Common Cold,Low,8.65,yes,no,2,no,no,no,no,296514,1,no,no,no,no,no,126,1,normal,no,no,no,no,no,2,no
+187,37,Other,36.0,5,9,9,4,97,91,no,no,no,no,Migraine,Low,6.6,no,no,2,no,no,no,no,318589,2,no,no,yes,no,no,123,2,normal,no,no,no,no,no,2,no
+178,38,M,37.3,5,3,2,5,94,86,no,no,no,no,Common Cold,Low,5.3,yes,no,2,no,no,no,no,304497,1,no,no,no,no,no,116,1,normal,no,no,no,no,no,2,no
+57,13,M,37.2,5,6,7,1,97,82,no,yes,no,no,Common Cold,Low,7.6,yes,no,0,no,no,no,no,261424,0,no,no,no,no,no,115,2,normal,no,no,no,no,no,2,no
+153,41,Other,37.5,5,5,7,2,96,80,no,no,no,no,Common Cold,Low,6.7,yes,no,1,no,no,no,no,227031,2,no,no,no,no,no,114,2,normal,no,no,no,no,no,1,no
+83,19,F,37.4,6,3,2,2,98,60,no,no,no,no,Common Cold,Low,5.4,yes,no,1,no,no,no,no,257683,2,no,no,no,no,no,114,1,normal,no,no,no,no,no,2,no
+69,56,F,38.8,8,8,2,3,95,75,no,no,no,no,Flu,Low,8.7,yes,yes,1,no,no,no,no,228966,0,no,no,no,no,no,117,3,normal,no,no,no,no,no,2,no
+125,26,M,38.0,5,3,2,0,93,60,no,no,no,yes,Gastroenteritis,Low,4.3,no,no,10,no,no,no,no,248016,0,no,no,no,no,no,114,2,normal,no,no,no,no,no,1,no
+17,44,M,38.8,9,1,0,0,95,74,no,no,no,no,Flu,Low,0.9,yes,yes,1,no,no,no,no,240935,0,no,no,no,no,no,123,2,normal,no,no,no,no,no,1,no
+149,33,M,39.2,8,6,2,5,89,85,no,no,no,no,COVID-19,Low,9.8,no,no,1,no,no,no,yes,240852,2,no,no,no,no,no,119,3,normal,no,no,no,no,no,2,no
+94,51,M,37.4,7,6,5,2,98,80,no,no,no,no,Common Cold,Low,6.0,yes,no,0,no,no,no,no,290774,2,no,no,no,no,no,115,3,normal,no,no,no,no,no,1,no
+66,75,F,37.5,7,0,3,3,98,59,no,no,no,no,Common Cold,Low,3.8,yes,no,1,no,no,no,no,272742,1,no,no,no,no,no,115,2,normal,no,no,no,no,no,1,no
+61,68,M,37.3,7,2,2,1,98,62,no,no,no,no,Common Cold,Low,3.2,yes,no,1,no,no,no,no,238883,2,no,no,no,no,no,125,2,normal,no,no,no,no,no,2,no
+85,82,F,37.1,6,3,0,1,96,76,no,no,no,no,Common Cold,Low,3.65,yes,no,0,no,no,no,no,280394,2,no,no,no,no,no,112,2,normal,no,no,no,no,no,0,no
+68,6,M,38.3,8,7,6,1,97,64,no,no,no,no,Flu,Low,10.85,yes,yes,1,no,no,no,no,289096,2,no,no,no,no,no,126,2,normal,no,no,no,no,no,0,no
+126,27,M,37.8,4,4,4,1,96,80,no,no,no,yes,Gastroenteritis,Low,5.55,no,no,9,no,no,no,no,286096,2,no,no,no,no,no,118,1,normal,no,no,no,no,no,2,no
+133,39,M,37.4,5,1,2,3,94,80,no,no,no,no,Common Cold,Low,4.4,yes,no,0,no,no,no,no,259491,0,no,no,no,no,no,119,3,normal,no,no,no,no,no,0,no
+10,34,Other,38.0,3,3,1,1,96,57,no,no,yes,yes,Gastroenteritis,Low,3.3,no,no,8,no,no,no,no,256276,2,no,no,no,no,no,113,3,normal,no,no,no,no,no,2,no
+19,44,Other,37.4,5,10,3,1,97,82,no,no,no,no,Common Cold,Low,7.2,yes,no,2,no,no,no,no,308027,2,no,no,no,no,no,112,3,normal,no,no,no,no,no,2,no
+56,9,F,37.7,8,10,7,0,96,89,no,no,no,no,Common Cold,Low,11.15,yes,no,0,no,no,no,no,239416,1,no,no,no,no,no,113,3,normal,no,no,no,no,no,2,no
+76,29,F,38.4,3,10,8,5,95,87,no,no,yes,yes,Gastroenteritis,Low,11.5,no,no,8,no,no,no,no,284083,1,no,no,no,no,no,123,3,normal,no,no,no,no,no,0,no
+151,1,Other,38.1,6,3,6,1,95,62,no,no,no,yes,Gastroenteritis,Low,6.3,no,no,8,no,no,no,no,241276,0,no,no,no,no,no,124,1,normal,no,no,no,no,no,2,no
+105,19,F,38.5,9,1,9,1,89,78,no,no,no,yes,COVID-19,Low,9.15,no,no,1,no,no,no,yes,280418,2,no,no,no,no,no,124,2,normal,no,no,no,no,no,2,no
+136,41,F,38.2,8,3,5,0,88,90,no,no,no,no,COVID-19,Low,8.0,no,no,0,no,no,no,yes,310597,1,no,no,no,no,no,117,3,normal,no,no,no,no,no,0,no
+138,52,F,38.1,6,0,1,2,98,72,no,no,no,yes,Gastroenteritis,Low,3.9,no,no,8,no,no,no,no,222011,1,no,no,no,no,no,122,3,normal,no,no,no,no,no,0,no
+165,32,Other,38.7,7,9,3,1,97,83,no,no,no,no,Flu,Low,10.85,yes,yes,0,no,no,no,no,230261,0,no,no,no,no,no,120,3,normal,no,no,no,no,no,1,no
+77,12,M,37.3,6,0,10,0,96,65,no,no,no,no,Common Cold,Low,4.5,yes,no,2,no,no,no,no,298072,0,no,no,no,no,no,126,1,normal,no,no,no,no,no,1,no
+80,55,Other,37.2,5,7,7,2,98,71,no,no,no,no,Common Cold,Low,7.5,yes,no,1,no,no,no,no,292299,1,no,no,no,no,no,119,3,normal,no,no,no,no,no,0,no
+198,33,F,37.4,6,1,5,4,96,69,no,no,no,no,Common Cold,Low,6.1,yes,no,2,no,no,no,no,306683,0,no,no,no,no,no,117,2,normal,no,no,no,no,no,2,no
+39,53,Other,39.5,7,9,3,2,96,96,no,no,no,no,Flu,Medium,12.55,yes,yes,0,no,no,no,no,309011,0,no,no,no,no,no,112,3,normal,no,no,no,no,no,2,no
+25,28,F,37.0,1,9,8,0,96,77,no,no,no,no,Migraine,Low,4.4,no,no,2,no,no,no,no,272199,1,no,no,yes,no,no,120,3,normal,no,no,no,no,no,1,no
+123,18,F,38.2,9,7,6,1,94,89,no,no,yes,yes,Gastroenteritis,Low,9.4,no,no,8,no,no,no,no,220921,1,no,no,no,no,no,116,2,normal,no,no,no,no,no,1,no
+196,28,Other,37.6,8,8,3,0,98,69,no,no,no,no,Common Cold,Low,8.1,yes,no,1,no,no,no,no,221689,2,no,no,no,no,no,112,1,normal,no,no,no,no,no,0,no
+30,38,F,37.3,6,8,1,4,100,69,no,no,no,no,Common Cold,Low,6.2,yes,no,1,no,no,no,no,277153,2,no,no,no,no,no,118,2,normal,no,no,no,no,no,1,no
+20,33,F,38.7,2,0,8,1,94,73,yes,no,no,no,Allergic Reaction,Low,6.25,no,no,2,no,no,no,no,244085,0,no,no,no,no,no,113,2,normal,no,yes,yes,no,no,0,no
+144,48,F,38.4,4,8,6,2,93,97,no,no,no,no,Dehydration,Low,7.9,no,no,0,no,no,no,no,292178,2,no,no,yes,no,no,120,8,normal,no,no,no,no,no,1,no
+87,39,F,39.3,8,5,10,1,97,76,no,no,yes,no,Flu,Low,11.25,yes,yes,0,no,no,no,no,249295,2,no,no,no,no,no,114,2,normal,no,no,no,no,no,0,no
+115,41,F,38.1,10,6,1,6,97,80,no,no,no,no,Bronchitis,Low,7.65,no,no,2,no,yes,yes,no,291653,1,no,no,no,no,no,113,3,normal,no,no,no,no,no,2,no
+174,34,M,37.6,6,3,7,3,100,74,no,no,no,no,Common Cold,Low,7.2,yes,no,1,no,no,no,no,226776,2,no,no,no,no,no,126,2,normal,no,no,no,no,no,1,no
+6,52,M,37.7,5,2,1,3,99,86,no,no,no,no,Common Cold,Low,2.0,yes,no,1,no,no,no,no,223239,1,no,no,no,no,no,121,3,normal,no,no,no,no,no,1,no
+127,32,F,37.2,5,6,4,0,100,85,no,no,no,no,Common Cold,Low,6.4,yes,no,0,no,no,no,no,290585,0,no,no,no,no,no,123,1,normal,no,no,no,no,no,1,no
+118,48,M,38.9,9,4,4,4,95,83,no,no,no,no,Bronchitis,Low,9.85,no,no,2,no,yes,yes,no,289287,1,no,no,no,no,no,112,2,normal,no,no,no,no,no,0,no
+74,67,F,38.1,8,6,6,0,96,72,no,no,no,no,Flu,Low,8.35,yes,yes,2,no,no,no,no,300558,1,no,no,no,no,no,123,2,normal,no,no,no,no,no,0,no
+141,30,Other,37.7,8,7,4,1,96,90,no,no,no,no,Common Cold,Low,8.3,yes,no,2,no,no,no,no,288638,2,no,no,no,no,no,119,3,normal,no,no,no,no,no,2,no
+99,43,M,37.4,5,4,6,4,100,79,no,no,no,no,Common Cold,Low,6.1,yes,no,0,no,no,no,no,280212,2,no,no,no,no,no,122,2,normal,no,no,no,no,no,2,no
+173,48,M,37.8,3,4,4,1,93,57,no,no,no,yes,Gastroenteritis,Low,4.6,no,no,8,no,no,no,no,234116,0,no,no,no,no,no,124,3,normal,no,no,no,no,no,1,no
+97,58,F,37.2,6,3,6,2,94,79,no,no,no,no,Common Cold,Low,5.4,yes,no,2,no,no,no,no,254772,1,no,no,no,no,no,119,2,normal,no,no,no,no,no,0,no
+170,9,Other,39.0,10,2,5,3,97,112,no,no,no,no,Bronchitis,Medium,13.6,no,no,2,no,yes,yes,no,248292,0,no,no,no,no,no,125,3,normal,no,no,no,no,no,1,no
+98,33,Other,37.7,6,1,4,1,96,71,no,no,no,no,Common Cold,Low,4.45,yes,no,2,no,no,no,no,231242,2,no,no,no,no,no,126,2,normal,no,no,no,no,no,1,no
+32,39,Other,37.6,5,1,1,2,92,96,no,no,no,no,Common Cold,Low,4.5,yes,no,0,no,no,no,no,315871,0,no,no,no,no,no,124,1,normal,no,no,no,no,no,0,no
+13,36,Other,37.6,6,3,1,3,95,79,no,no,no,no,Common Cold,Low,5.4,yes,no,0,no,no,no,no,225730,2,no,no,no,no,no,112,1,normal,no,no,no,no,no,0,no
+36,39,M,37.5,7,7,5,2,100,79,no,no,no,no,Common Cold,Low,6.9,yes,no,0,no,no,no,no,260621,0,no,no,no,no,no,122,1,normal,no,no,no,no,no,2,no
+120,53,F,37.3,5,4,1,5,100,68,no,no,no,no,Common Cold,Low,4.9,yes,no,2,no,no,no,no,295007,1,no,no,no,no,no,123,2,normal,no,no,no,no,no,0,no
+43,8,M,38.2,7,9,4,1,99,80,no,yes,yes,yes,Gastroenteritis,Low,9.05,no,no,10,no,no,no,no,267233,2,no,no,no,no,no,115,3,normal,no,no,no,no,no,2,no
+190,58,M,37.3,5,9,5,3,97,67,no,no,no,no,Common Cold,Low,8.5,yes,no,2,no,no,no,no,251775,0,no,no,no,no,no,116,3,normal,no,no,no,no,no,1,no
+91,42,F,37.6,7,10,2,0,99,93,no,no,no,no,Common Cold,Low,7.6,yes,no,1,no,no,no,no,225674,1,no,no,no,no,no,118,2,normal,no,no,no,no,no,1,no
+137,50,M,39.4,3,4,4,1,97,76,no,no,no,yes,Gastroenteritis,Low,8.2,no,no,10,no,no,no,no,304180,2,no,no,no,no,no,124,3,normal,no,no,no,no,no,1,no
+52,54,M,37.4,7,10,3,1,93,89,no,no,no,no,Common Cold,Low,8.7,yes,no,1,no,no,no,no,224526,1,no,no,no,no,no,126,1,normal,no,no,no,no,no,0,no
+128,11,M,37.7,7,7,6,3,92,72,no,no,no,no,Common Cold,Low,10.05,yes,no,1,no,no,no,no,304333,2,no,no,no,no,no,117,1,normal,no,no,no,no,no,2,no
+163,37,M,39.4,4,3,4,2,95,90,no,no,no,yes,Gastroenteritis,Low,8.6,no,no,10,no,no,no,no,287816,2,no,no,no,no,no,112,2,normal,no,no,no,no,no,0,no
+42,38,M,37.1,5,2,8,3,96,70,yes,no,no,no,Allergic Reaction,Low,6.75,no,no,0,no,no,no,no,311055,2,no,no,no,no,no,118,3,normal,no,yes,yes,no,no,1,no
+119,24,M,37.7,6,2,1,0,95,59,no,no,no,no,Common Cold,Low,4.15,yes,no,0,no,no,no,no,288808,1,no,no,no,no,no,122,3,normal,no,no,no,no,no,2,no
+114,41,M,37.4,6,0,5,4,98,78,no,no,no,no,Common Cold,Low,4.7,yes,no,2,no,no,no,no,279363,2,no,no,no,no,no,121,1,normal,no,no,no,no,no,1,no
+27,23,M,38.1,3,8,5,2,98,103,no,no,no,no,Dehydration,Low,9.05,no,no,0,no,no,no,no,229993,1,no,no,yes,no,no,117,10,normal,no,no,no,no,no,1,no
+140,49,F,40.1,7,7,5,0,97,72,no,no,no,no,Flu,Medium,12.45,yes,yes,1,no,no,no,no,313353,2,no,no,no,no,no,116,1,normal,no,no,no,no,no,0,no
+101,21,M,37.7,9,3,10,1,94,75,no,no,no,no,Bronchitis,Low,9.55,no,no,2,no,yes,yes,no,244339,0,no,no,no,no,no,117,3,normal,no,no,no,no,no,1,no
+112,52,M,38.1,10,7,1,0,89,98,no,no,no,yes,COVID-19,Low,9.85,no,no,2,no,no,no,yes,235921,2,no,no,no,no,no,114,3,normal,no,no,no,no,no,1,no
+3,86,M,37.4,6,2,9,0,99,84,no,no,no,no,Common Cold,Low,4.5,yes,no,1,no,no,no,no,292229,0,no,no,no,no,no,124,2,normal,no,no,no,no,no,0,no
+78,51,F,38.3,4,1,6,1,97,69,no,no,yes,yes,Gastroenteritis,Low,4.5,no,no,8,no,no,no,no,287302,1,no,no,no,no,no,124,1,normal,no,no,no,no,no,0,no
+47,51,M,37.2,5,3,4,3,100,71,no,no,no,no,Common Cold,Low,4.8,yes,no,0,no,no,no,no,240085,0,no,no,no,no,no,123,1,normal,no,no,no,no,no,2,no
+188,25,Other,38.1,9,7,8,1,96,92,no,no,no,no,Flu,Low,10.55,yes,yes,2,no,no,no,no,226006,2,no,no,no,no,no,120,3,normal,no,no,no,no,no,0,no
+192,73,M,37.3,7,5,0,0,95,63,no,no,no,no,Common Cold,Low,4.0,yes,no,2,no,no,no,no,261627,0,no,no,no,no,no,121,2,normal,no,no,no,no,no,0,no
+86,44,Other,37.6,5,1,3,5,95,77,no,no,no,no,Common Cold,Low,3.8,yes,no,1,no,no,no,no,265016,1,no,no,no,no,no,121,2,normal,no,no,no,no,no,1,no
+162,26,F,37.4,5,5,9,2,96,51,no,no,no,no,Common Cold,Low,7.3,yes,no,2,no,no,no,no,300505,1,no,no,no,no,no,126,1,normal,no,no,no,no,no,1,no
+37,32,M,39.9,9,2,4,0,95,65,no,no,no,no,Bronchitis,Low,9.35,no,no,1,no,yes,yes,no,302967,0,no,no,no,no,no,115,1,normal,no,no,no,no,no,2,no
+191,52,M,39.3,3,2,7,2,92,93,yes,no,no,no,Allergic Reaction,Low,9.05,no,no,1,no,no,no,no,254951,2,no,no,no,no,no,121,2,normal,no,yes,yes,no,no,1,no
+62,26,M,37.9,7,8,6,3,94,59,no,no,yes,yes,Gastroenteritis,Low,9.4,no,no,9,no,no,no,no,243175,0,no,no,no,no,no,112,3,normal,no,no,no,no,no,2,no
+23,63,Other,37.1,6,0,7,2,97,79,yes,no,no,no,Allergic Reaction,Low,5.85,no,no,0,no,no,no,no,303787,1,no,no,no,no,no,121,1,normal,no,yes,yes,no,no,2,no
+142,44,Other,38.7,10,6,5,1,88,97,no,no,no,no,COVID-19,Low,9.65,no,no,1,no,no,no,yes,271554,0,no,no,no,no,no,117,1,normal,no,no,no,no,no,0,no
+102,14,Other,37.3,7,2,0,6,96,96,no,no,no,no,Common Cold,Low,7.3,yes,no,2,no,no,no,no,254753,2,no,no,no,no,no,119,2,normal,no,no,no,no,no,1,no
+34,15,M,35.8,9,4,0,6,96,74,yes,no,no,no,Allergic Reaction,Low,7.9,no,no,2,no,no,no,no,223468,2,no,no,no,no,no,123,2,normal,no,yes,yes,no,no,2,no
+12,30,F,37.6,7,0,0,1,97,104,no,no,no,no,Common Cold,Low,4.1,yes,no,1,no,no,no,no,272948,2,no,no,no,no,no,120,3,normal,no,no,no,no,no,0,no
+195,26,M,39.0,3,9,7,0,96,86,no,no,no,yes,Anemia,Low,7.4,no,no,1,no,no,no,no,303438,2,no,no,yes,no,no,120,1,normal,no,no,no,no,no,1,no
+160,49,M,38.2,9,7,3,2,94,85,no,no,no,no,Flu,Low,8.6,yes,yes,2,no,no,no,no,256183,1,no,no,no,no,no,121,1,normal,no,no,no,no,no,1,no
+7,24,Other,37.9,5,8,8,0,97,55,yes,no,yes,yes,Gastroenteritis,Low,9.45,no,no,10,no,no,no,no,271937,2,no,no,no,no,no,119,3,normal,no,yes,no,no,no,2,no
+28,47,M,38.7,7,5,7,2,97,78,no,no,no,no,Flu,Low,10.25,yes,yes,1,no,no,no,no,276988,0,no,no,no,no,no,114,2,normal,no,no,no,no,no,2,no
+121,50,F,37.9,4,7,9,0,94,88,no,no,yes,yes,Gastroenteritis,Low,8.1,no,no,8,no,no,no,no,271123,1,no,no,no,no,no,113,3,normal,no,no,no,no,no,0,no
+5,53,M,38.4,1,7,9,2,96,61,no,no,no,no,Dehydration,Low,7.9,no,no,0,no,no,no,no,302271,1,no,no,yes,no,no,126,8,normal,no,no,no,no,no,1,no
+33,34,Other,38.9,2,5,5,2,98,73,yes,no,no,yes,Allergic Reaction,Low,7.95,no,no,1,no,no,no,no,228975,2,no,no,no,no,no,112,3,normal,no,yes,yes,no,no,0,no
+143,30,M,37.5,6,4,4,3,99,82,no,no,no,no,Common Cold,Low,5.2,yes,no,0,no,no,no,no,310495,2,no,no,no,no,no,126,1,normal,no,no,no,no,no,0,no
+146,59,F,37.7,5,5,8,3,98,73,no,no,no,no,Common Cold,Low,8.85,yes,no,2,no,no,no,no,305431,1,no,no,no,no,no,122,1,normal,no,no,no,no,no,0,no
+110,29,M,38.1,4,4,8,4,97,66,yes,no,no,no,Allergic Reaction,Low,8.85,no,no,0,no,no,no,no,238194,2,no,no,no,no,no,115,3,normal,no,yes,yes,no,no,2,no
+145,70,Other,37.7,1,3,3,0,93,80,no,no,yes,yes,Gastroenteritis,Low,3.35,no,no,10,no,no,no,no,266948,2,no,no,no,no,no,126,2,normal,no,no,no,no,no,2,no
+11,45,F,38.4,3,8,10,1,98,72,no,no,no,no,Migraine,Low,7.3,no,no,0,no,no,no,no,287722,1,no,no,yes,no,no,125,3,normal,no,no,no,no,no,0,no
+63,33,M,37.4,5,0,4,0,98,66,no,no,no,no,Common Cold,Low,4.3,yes,no,2,no,no,no,no,290527,1,no,no,no,no,no,117,3,normal,no,no,no,no,no,1,no
+113,12,Other,38.3,4,5,0,2,100,82,no,no,no,yes,Gastroenteritis,Low,4.6,no,no,8,no,no,no,no,233748,1,no,no,no,no,no,116,1,normal,no,no,no,no,no,0,no
+147,25,Other,38.2,2,5,8,0,95,69,yes,no,no,no,Dengue,Low,7.2,no,no,2,no,no,no,no,256784,6,no,no,no,no,no,116,1,normal,no,yes,no,no,no,2,no
+167,36,Other,36.8,7,7,10,4,100,65,no,no,no,no,Migraine,Low,10.5,no,no,0,no,no,no,no,239576,2,no,no,yes,no,no,126,1,normal,no,no,no,no,no,0,no
+1,48,Other,38.1,5,0,3,2,94,80,no,no,yes,yes,Gastroenteritis,Low,5.65,no,no,8,no,no,no,no,238417,1,no,no,no,no,no,123,3,normal,no,no,no,no,no,1,no
+199,40,Other,38.7,3,4,5,0,99,70,yes,no,no,no,Allergic Reaction,Low,7.15,no,no,0,no,no,no,no,302351,1,no,no,no,no,no,120,2,normal,no,yes,yes,no,no,1,no
+154,27,Other,37.4,7,0,1,0,97,88,no,no,no,no,Common Cold,Low,2.3,yes,no,1,no,no,no,no,223135,1,no,no,no,no,no,123,1,normal,no,no,no,no,no,1,no
+71,43,Other,37.6,5,4,7,1,99,73,no,no,no,no,Common Cold,Low,6.5,yes,no,1,no,no,no,no,310268,1,no,no,no,no,no,113,3,normal,no,no,no,no,no,2,no
+124,34,Other,37.4,6,5,4,3,97,89,no,no,no,no,Common Cold,Low,5.6,yes,no,2,no,no,no,no,253778,0,no,no,no,no,no,117,3,normal,no,no,no,no,no,2,no
+65,37,Other,37.5,7,4,7,4,94,104,no,no,no,no,Common Cold,Low,8.7,yes,no,1,no,no,no,no,236923,1,no,no,no,no,no,123,2,normal,no,no,no,no,no,1,no
+45,76,M,37.5,6,2,7,1,96,95,no,no,no,no,Common Cold,Low,5.7,yes,no,0,no,no,no,no,287384,1,no,no,no,no,no,117,1,normal,no,no,no,no,no,2,no
+164,36,Other,37.5,6,6,6,0,98,66,no,no,no,no,Common Cold,Low,7.95,yes,no,1,no,no,no,no,318720,0,no,no,no,no,no,116,3,normal,no,no,no,no,no,2,no
+29,31,M,36.7,3,3,0,0,99,80,yes,no,no,no,Allergic Reaction,Low,2.7,no,no,0,no,no,no,no,319277,1,no,no,no,no,no,125,2,normal,no,yes,yes,no,no,0,no
+41,31,Other,38.8,7,6,6,1,95,95,no,no,no,no,Common Cold,Low,10.2,yes,no,1,no,no,no,no,269657,2,no,no,no,no,no,120,3,normal,no,no,no,no,no,0,no
+109,77,F,38.1,1,2,6,3,94,74,no,no,no,yes,Gastroenteritis,Low,5.65,no,no,10,no,no,no,no,251698,1,no,no,no,no,no,125,2,normal,no,no,no,no,no,2,no
+156,36,F,37.5,7,5,1,2,99,75,no,no,no,no,Common Cold,Low,4.9,yes,no,0,no,no,no,no,318624,1,no,no,no,no,no,119,1,normal,no,no,no,no,no,2,no
+157,28,Other,37.3,5,8,4,3,95,69,no,no,no,no,Common Cold,Low,7.8,yes,no,1,no,no,no,no,296731,1,no,no,no,no,no,115,1,normal,no,no,no,no,no,2,no
+26,50,F,40.1,9,5,8,1,97,89,no,no,no,no,Flu,Low,10.85,yes,yes,1,no,no,no,no,253687,0,no,no,no,no,no,114,3,normal,no,no,no,no,no,1,no
+24,6,M,39.1,5,3,10,3,92,82,yes,no,no,yes,Dengue,Low,10.75,no,no,2,no,no,no,no,282964,7,no,no,no,no,no,118,3,normal,no,yes,no,no,no,0,no
+185,1,M,37.9,5,5,4,3,97,83,no,no,yes,yes,Gastroenteritis,Low,7.95,no,no,10,no,no,no,no,258774,2,no,no,no,no,no,117,1,normal,no,no,no,no,no,0,no
+148,54,Other,36.3,5,3,7,3,96,63,yes,no,no,no,Allergic Reaction,Low,6.7,no,no,1,no,no,no,no,235797,1,no,no,no,no,no,123,1,normal,no,yes,yes,no,no,2,no
+82,51,F,38.0,9,2,7,1,96,88,yes,no,no,no,Bronchitis,Low,7.7,no,no,0,no,yes,yes,no,231894,2,no,no,no,no,no,120,1,normal,no,yes,no,no,no,1,no
+40,27,Other,39.2,1,3,1,0,96,80,no,no,no,yes,Gastroenteritis,Low,5.3,no,no,8,no,no,no,no,292897,1,no,no,no,no,no,118,1,normal,no,no,no,no,no,0,no
+169,21,M,37.5,6,0,0,4,97,68,no,no,no,no,Common Cold,Low,3.2,yes,no,0,no,no,no,no,222718,2,no,no,no,no,no,120,2,normal,no,no,no,no,no,0,no
+48,42,Other,37.4,5,5,8,0,95,64,no,no,no,no,Common Cold,Low,5.4,yes,no,0,no,no,no,no,313122,1,no,no,no,no,no,113,3,normal,no,no,no,no,no,1,no
+95,51,Other,39.4,9,9,9,2,93,73,no,no,no,no,Flu,Medium,12.5,yes,yes,1,no,no,no,no,256063,1,no,no,no,no,no,118,2,normal,no,no,no,no,no,1,no
+155,21,Other,38.3,10,10,7,3,90,66,no,no,no,no,COVID-19,Low,10.45,no,no,0,no,no,no,yes,317403,0,no,no,no,no,no,119,2,normal,no,no,no,no,no,2,no
+44,50,M,37.6,6,7,0,2,98,71,no,no,no,no,Common Cold,Low,5.4,yes,no,0,no,no,no,no,278979,1,no,no,no,no,no,126,2,normal,no,no,no,no,no,2,no
+139,29,M,37.3,6,3,10,0,99,70,no,no,no,no,Common Cold,Low,6.2,yes,no,1,no,no,no,no,303067,0,no,no,no,no,no,119,3,normal,no,no,no,no,no,1,no
+4,20,M,38.2,5,5,4,0,94,77,no,no,no,yes,Gastroenteritis,Low,6.0,no,no,8,no,no,no,no,265122,0,no,no,no,no,no,115,2,normal,no,no,no,no,no,1,no
+106,57,Other,37.3,5,0,8,3,96,70,no,no,no,no,Common Cold,Low,5.8,yes,no,2,no,no,no,no,232454,0,no,no,no,no,no,126,1,normal,no,no,no,no,no,2,no
+54,44,Other,38.2,6,0,4,2,97,93,no,no,yes,yes,Gastroenteritis,Low,5.4,no,no,9,no,no,no,no,310618,1,no,no,no,no,no,125,2,normal,no,no,no,no,no,0,no
+134,61,F,37.6,5,7,7,0,93,70,no,no,no,no,Common Cold,Low,7.4,yes,no,2,no,no,no,no,231298,1,no,no,no,no,no,119,1,normal,no,no,no,no,no,2,no
+181,10,Other,37.2,7,0,4,1,96,73,no,no,no,no,Common Cold,Low,3.8,yes,no,0,no,no,no,no,220199,0,no,no,no,no,no,113,2,normal,no,no,no,no,no,0,no
+179,58,M,37.6,9,4,3,5,100,85,no,no,yes,yes,Gastroenteritis,Low,9.4,no,no,10,no,no,no,no,255483,2,no,no,no,no,no,117,3,normal,no,no,no,no,no,1,no
+186,21,F,37.2,6,7,2,3,95,85,no,no,no,no,Common Cold,Low,5.3,yes,no,1,no,no,no,no,291374,0,no,no,no,no,no,120,1,normal,no,no,no,no,no,1,no
+50,79,F,39.6,8,6,7,5,90,86,no,no,no,no,COVID-19,Medium,13.4,no,no,2,no,no,no,yes,260866,0,no,no,no,no,no,123,1,normal,no,no,no,no,no,1,no
+81,30,Other,37.4,9,0,3,3,98,55,no,no,no,no,Common Cold,Low,6.3,yes,no,1,no,no,no,no,292204,2,no,no,no,no,no,120,2,normal,no,no,no,no,no,2,no
+35,27,Other,38.2,1,7,8,0,93,69,no,no,no,yes,Gastroenteritis,Low,7.5,no,no,8,no,no,no,no,262126,0,no,no,no,no,no,113,3,normal,no,no,no,no,no,0,no
+8,59,Other,37.7,5,6,2,2,94,87,no,no,no,no,Common Cold,Low,5.1,yes,no,1,no,no,no,no,290841,0,no,no,no,no,no,120,1,normal,no,no,no,no,no,1,no
+111,69,F,37.2,5,3,5,1,95,94,no,no,no,no,Common Cold,Low,5.6,yes,no,0,no,no,no,no,240615,1,no,no,no,no,no,126,1,normal,no,no,no,no,no,0,no
+92,31,M,38.1,8,1,1,3,96,73,no,no,no,no,Flu,Low,4.75,yes,yes,1,no,no,no,no,316898,0,no,no,no,no,no,124,3,normal,no,no,no,no,no,2,no
+84,50,F,37.9,6,5,5,1,95,66,no,no,no,no,Common Cold,Low,6.65,yes,no,0,no,no,no,no,251914,2,no,no,no,no,no,115,1,normal,no,no,no,no,no,2,no
+177,38,F,37.4,6,7,4,2,100,64,no,no,no,no,Common Cold,Low,7.6,yes,no,2,no,no,no,no,267723,1,no,no,no,no,no,115,3,normal,no,no,no,no,no,1,no
+182,53,Other,36.8,3,2,7,1,98,84,yes,no,no,no,Allergic Reaction,Low,4.7,no,no,0,no,no,no,no,224966,0,no,no,no,no,no,118,3,normal,no,yes,yes,no,no,1,no
+90,43,F,37.2,6,3,2,2,99,62,no,no,no,no,Common Cold,Low,5.7,yes,no,0,no,no,no,no,303621,2,no,no,no,no,no,112,3,normal,no,no,no,no,no,0,no
+9,56,M,37.4,6,8,6,3,98,67,no,no,no,no,Common Cold,Low,8.9,yes,no,2,no,no,no,no,293642,1,no,no,no,no,no,123,1,normal,no,no,no,no,no,2,no
+14,39,M,37.2,5,2,9,3,97,70,no,no,no,no,Common Cold,Low,7.2,yes,no,1,no,no,no,no,273531,2,no,no,no,no,no,116,1,normal,no,no,no,no,no,2,no
+60,43,M,37.5,5,1,1,2,100,91,no,no,no,no,Common Cold,Low,3.0,yes,no,0,no,no,no,no,248471,1,no,no,no,no,no,115,2,normal,no,no,no,no,no,2,no
+172,30,F,37.4,5,2,3,0,96,55,no,no,no,no,Common Cold,Low,4.8,yes,no,1,no,no,no,no,238036,0,no,no,no,no,no,124,2,normal,no,no,no,no,no,0,no
+132,88,Other,37.8,6,1,3,2,93,82,no,no,no,no,Common Cold,Low,4.1,yes,no,0,no,no,no,no,259382,0,no,no,no,no,no,118,2,normal,no,no,no,no,no,1,no
+18,33,Other,37.8,5,1,2,0,96,84,no,no,no,no,Common Cold,Low,4.7,yes,no,1,no,no,no,no,223762,0,no,no,no,no,no,125,3,normal,no,no,no,no,no,0,no
+73,37,Other,38.9,9,5,4,3,96,88,no,no,no,no,Flu,Low,9.45,yes,yes,0,no,no,no,no,221969,0,no,no,no,no,no,118,1,normal,no,no,no,no,no,0,no
+176,50,F,37.6,7,5,5,2,94,96,no,no,no,no,Common Cold,Low,8.2,yes,no,0,no,no,no,no,313069,1,no,no,no,no,no,125,3,normal,no,no,no,no,no,0,no
+135,38,Other,37.9,8,3,4,3,99,73,no,no,no,yes,Gastroenteritis,Low,7.45,no,no,9,no,no,no,no,256024,1,no,no,no,no,no,115,3,normal,no,no,no,no,no,0,no
+168,77,F,37.9,10,4,4,1,98,60,no,no,no,no,Bronchitis,Low,4.95,no,no,2,no,yes,yes,no,307001,1,no,no,no,no,no,112,3,normal,no,no,no,no,no,2,no
+184,31,F,37.6,6,5,0,2,100,63,no,no,no,no,Common Cold,Low,4.6,yes,no,1,no,no,no,no,319156,1,no,no,no,no,no,123,1,normal,no,no,no,no,no,1,no
+64,28,M,37.3,6,4,1,2,95,83,no,no,no,no,Common Cold,Low,5.5,yes,no,2,no,no,no,no,229868,0,no,no,no,no,no,116,3,normal,no,no,no,no,no,1,no
+55,37,F,37.6,5,2,1,3,97,84,no,no,no,no,Common Cold,Low,3.0,yes,no,2,no,no,no,no,256070,2,no,no,no,no,no,112,2,normal,no,no,no,no,no,0,no
+108,69,F,38.5,9,3,6,2,91,50,no,no,no,no,COVID-19,Low,4.5,no,no,0,no,no,no,yes,307480,0,no,no,no,no,no,123,1,normal,no,no,no,no,no,0,no
+51,28,Other,37.8,5,7,5,6,96,86,no,no,no,no,Common Cold,Low,9.3,yes,no,1,no,no,no,no,263666,0,no,no,no,no,no,125,3,normal,no,no,no,no,no,2,no
+197,58,M,37.6,9,5,3,0,97,86,no,no,no,no,Bronchitis,Low,6.8,no,no,1,no,yes,yes,no,292695,1,no,no,no,no,no,125,1,normal,no,no,no,no,no,0,no
+59,53,Other,37.4,6,1,2,0,95,89,no,no,no,no,Common Cold,Low,3.6,yes,no,0,no,no,no,no,233254,1,no,no,no,no,no,119,1,normal,no,no,no,no,no,2,no
+49,36,M,38.2,5,2,8,0,95,76,yes,no,no,no,Dengue,Low,5.4,no,no,0,no,no,no,no,268153,5,no,no,no,no,no,112,2,normal,no,yes,no,no,no,0,no
+89,47,F,37.5,7,3,2,1,97,72,no,no,no,no,Common Cold,Low,4.1,yes,no,1,no,no,no,no,249592,2,no,no,no,no,no,118,2,normal,no,no,no,no,no,2,no
+22,31,Other,37.6,6,1,4,3,99,75,no,no,no,no,Common Cold,Low,5.5,yes,no,1,no,no,no,no,261776,0,no,no,no,no,no,119,1,normal,no,no,no,no,no,0,no
+58,23,Other,37.4,7,3,3,0,96,79,no,no,no,no,Common Cold,Low,3.7,yes,no,2,no,no,no,no,318939,2,no,no,no,no,no,114,2,normal,no,no,no,no,no,1,no
+161,77,M,37.5,6,3,4,2,95,79,no,no,no,no,Common Cold,Low,6.0,yes,no,0,no,no,no,no,224564,0,no,no,no,no,no,120,3,normal,no,no,no,no,no,0,no
+193,54,F,38.0,2,3,1,0,97,88,yes,no,no,no,Allergic Reaction,Low,4.0,no,no,0,no,no,no,no,316745,0,no,no,no,no,no,124,2,normal,no,yes,yes,no,no,1,no
+130,29,Other,37.4,5,3,2,1,97,67,no,no,no,no,Common Cold,Low,4.2,yes,no,2,no,no,no,no,265567,2,no,no,no,no,no,126,1,normal,no,no,no,no,no,2,no
+38,68,M,37.5,6,1,0,2,98,86,no,no,no,no,Common Cold,Low,3.0,yes,no,2,no,no,no,no,278782,1,no,no,no,no,no,126,2,normal,no,no,no,no,no,2,no
+158,27,Other,37.5,5,5,4,3,95,74,no,no,no,no,Common Cold,Low,6.6,yes,no,1,no,no,no,no,244050,0,no,no,no,no,no,125,3,normal,no,no,no,no,no,1,no
+194,47,Other,37.3,5,3,4,5,94,75,no,no,no,no,Common Cold,Low,6.35,yes,no,0,no,no,no,no,268308,1,no,no,no,no,no,124,1,normal,no,no,no,no,no,1,no
+2,37,Other,38.2,4,3,2,0,95,87,yes,no,no,yes,Gastroenteritis,Low,5.6,no,no,10,no,no,no,no,237846,2,no,no,no,no,no,123,2,normal,no,yes,no,no,no,2,no
+53,19,F,36.7,3,10,0,1,97,68,yes,no,no,no,Allergic Reaction,Low,5.8,no,no,1,no,no,no,no,276442,0,no,no,no,no,no,120,1,normal,no,yes,yes,no,no,0,no
+150,43,Other,38.5,8,6,1,1,96,75,no,no,no,no,Flu,Low,7.2,yes,yes,2,no,no,no,no,292850,1,no,no,no,no,no,114,2,normal,no,no,no,no,no,1,no
+131,40,Other,37.5,10,3,8,0,99,56,no,no,no,no,Bronchitis,Low,8.35,no,no,0,no,yes,yes,no,236431,1,no,no,no,no,no,115,2,normal,no,no,no,no,no,0,no
+152,5,F,37.8,5,7,0,3,97,76,no,no,no,no,Common Cold,Low,6.4,yes,no,0,no,no,no,no,313062,1,no,no,no,no,no,122,1,normal,no,no,no,no,no,1,no
+104,65,F,37.5,5,6,4,4,92,82,no,no,no,no,Common Cold,Low,5.8,yes,no,0,no,no,no,no,223028,2,no,no,no,no,no,121,2,normal,no,no,no,no,no,1,no
+100,36,M,38.3,8,6,6,6,88,82,no,no,no,no,COVID-19,Low,11.95,no,no,1,no,no,no,yes,251129,0,no,no,no,no,no,125,3,normal,no,no,no,no,no,1,no
+117,11,Other,38.6,8,5,10,5,97,67,no,no,no,no,Flu,Low,11.4,yes,yes,2,no,no,no,no,288204,2,no,no,no,no,no,125,3,normal,no,no,no,no,no,2,no
+88,35,M,37.1,6,2,3,0,95,85,no,no,no,no,Common Cold,Low,3.35,yes,no,2,no,no,no,no,258746,2,no,no,no,no,no,121,3,normal,no,no,no,no,no,1,no
+75,9,F,38.1,2,8,1,0,100,86,no,no,yes,yes,Gastroenteritis,Low,4.65,no,no,10,no,no,no,no,318894,1,no,no,no,no,no,117,2,normal,no,no,no,no,no,0,no
+122,12,M,37.2,7,3,7,2,97,100,no,no,no,no,Common Cold,Low,8.2,yes,no,2,no,no,no,no,300063,1,no,no,no,no,no,120,2,normal,no,no,no,no,no,1,no
+200,65,M,38.6,3,6,7,0,94,93,yes,no,no,no,Dengue,Low,8.7,no,no,2,no,no,no,no,312743,6,no,no,no,no,no,121,1,normal,no,yes,no,no,no,1,no
+21,52,M,38.3,5,1,9,0,94,90,yes,no,no,no,Dengue,Low,7.55,no,no,2,no,no,no,no,228912,7,no,no,no,no,no,115,1,normal,no,yes,no,no,no,0,no
+189,81,F,37.7,7,4,7,4,99,68,no,no,no,no,Common Cold,Low,6.9,yes,no,2,no,no,no,no,263136,1,no,no,no,no,no,121,2,normal,no,no,no,no,no,0,no
+72,27,M,39.8,10,4,9,5,94,86,no,no,no,no,Bronchitis,Low,11.5,no,no,0,no,yes,yes,no,319806,1,no,no,no,no,no,112,2,normal,no,no,no,no,no,2,no
+107,34,M,37.6,9,0,5,3,95,64,no,no,no,no,Bronchitis,Low,6.3,no,no,1,no,yes,yes,no,281540,0,no,no,no,no,no,117,1,normal,no,no,no,no,no,0,no
+15,51,F,37.8,3,6,7,0,97,102,no,no,no,yes,Gastroenteritis,Low,8.55,no,no,9,no,no,no,no,257589,0,no,no,no,no,no,115,3,normal,no,no,no,no,no,1,no
+93,16,M,39.0,9,0,3,4,94,70,no,no,no,yes,Bronchitis,Low,8.1,no,no,2,no,yes,yes,no,231803,2,no,no,no,no,no,120,1,normal,no,no,no,no,no,1,no
+180,21,Other,37.7,6,5,3,0,99,60,no,no,no,no,Common Cold,Low,4.9,yes,no,0,no,no,no,no,311075,1,no,no,no,no,no,125,1,normal,no,no,no,no,no,2,no
+103,10,F,37.2,6,6,1,6,93,58,no,no,no,no,Common Cold,Low,7.5,yes,no,0,no,no,no,no,287203,2,no,no,no,no,no,118,1,normal,no,no,no,no,no,1,no
