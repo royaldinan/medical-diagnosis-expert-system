@@ -1,0 +1,25 @@
+## Conclusions and Method Synthesis
+
+### 1. Rule-Based Expert System
+
+The rule-based expert system demonstrated robust classification performance across the benchmark dataset, achieving 87.0% diagnostic accuracy and 97.5% clinical coverage with an average latency of 23.59 microseconds per patient. Its evaluation mechanism relies on direct pattern matching against codified production rules, using rule specificity to resolve conflicts between overlapping preconditions. This architecture is computationally efficient and deterministic, ensuring that identical clinical observations consistently trigger the same diagnostic outcome without numerical drift.
+
+The operational advantage of the rule-based approach is complete diagnostic transparency. Every recommendation directly corresponds to an explicit clinical rule that physicians can inspect, validate, and update without retraining complex statistical weights. However, its primary limitation is rigidity along continuous parameter boundaries. A binary temperature threshold such as fever above 38.0 degrees Celsius rejects a patient presenting at 37.9 degrees Celsius even when all other symptoms align with the diagnosis. Rule-based systems are therefore best suited for high-throughput initial triage where clinical protocols are strictly standardized and unambiguous decision criteria exist.
+
+### 2. Forward Chaining
+
+Forward chaining matched the top-tier accuracy of the rule-based system at 87.0% with 97.5% coverage, operating at an average latency of 23.68 microseconds per patient. Its bottom-up reasoning successfully decoupled raw physiological data from terminal diagnoses through structured intermediate abstractions. By propagating facts across working memory cycles, the engine abstracted raw vital signs into physiological states (hyperthermia, tachycardia, and hypoxemia), grouped them into clinical syndromes, and resolved final disease classifications.
+
+The key strength of forward chaining is opportunistic discovery in data-rich environments. The engine evaluates all presenting evidence without requiring prior diagnostic assumptions, making it well suited for continuous inpatient monitoring where clinical signs accumulate over time. The generated agenda provides an end-to-end audit trail detailing how baseline observations derived intermediate clinical states. Its main constraint is potential execution overhead in broad knowledge bases, where rules may derive intermediate facts that do not contribute to final diagnostic closure. Forward chaining is most effective for automated patient intake and general screening pipelines.
+
+### 3. Backward Chaining
+
+Backward chaining delivered 85.5% diagnostic accuracy and 97.5% coverage on the benchmark cohort, exhibiting an average latency of 335.58 microseconds per patient. The higher latency, approximately fourteen times that of forward matching, stems from the computational cost of recursive goal-tree evaluation, sub-goal stack manipulation, and precondition backtracking across multiple candidate hypotheses. Despite this computational overhead, the method proved reliable in evaluating structured clinical goals against recorded findings.
+
+The primary diagnostic value of backward chaining lies in hypothesis confirmation and targeted differential workups. Rather than processing all available facts indiscriminately, the engine queries only the specific clinical preconditions required to confirm or refute a suspected illness. Furthermore, failed proof paths pinpoint the precise missing criteria (such as normal platelet counts ruling out Dengue Fever), providing clinicians with actionable justifications for ordering additional diagnostic laboratory tests. Backward chaining is ideal for confirmatory diagnostic systems and interactive clinical decision support where the physician enters a provisional hypothesis.
+
+### 4. Fuzzy Logic
+
+The Mamdani fuzzy inference system achieved 73.5% categorical accuracy and 87.5% coverage with an average latency of 41.54 microseconds per patient, alongside computing a continuous clinical severity score from 0 to 100. The lower categorical accuracy compared to deterministic methods reflects the inherent mismatch between soft fuzzy membership distributions and rigid single-label benchmark classifications. In cases where multiple disease rules overlap, defuzzified output distributions frequently reflect co-occurring symptom profiles rather than isolating an exclusive binary label.
+
+The major clinical contribution of fuzzy logic is the mitigation of artificial threshold cliffs. By mapping continuous variables such as body temperature, pulse oximetry, and subjective pain scores into overlapping linguistic membership sets, the engine captures borderline clinical presentations that boolean rules reject. A patient with a temperature of 37.8 degrees Celsius and a severe cough receives a proportional risk rating instead of an immediate negative categorization. Fuzzy logic is best deployed as a complementary risk-stratification and triage-scoring layer, quantifying patient instability and clinical urgency in conjunction with deterministic diagnostic engines.
